@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impossible Blocks - Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-info">
+            <div class="score-container">
+                <h2>Score: <span id="score">0</span></h2>
+                <h3>Level: <span id="level">1</span></h3>
+                <h3>Lines: <span id="lines">0</span></h3>
+            </div>
+            <div class="next-piece">
+                <h3>Next Block</h3>
+                <canvas id="nextPiece" width="90" height="90"></canvas>
+            </div>
+            <div class="hold-piece">
+                <h3>Hold Block</h3>
+                <canvas id="holdPiece" width="90" height="90"></canvas>
+            </div>
+            <button id="startBtn">Start Game</button>
+            <button id="pauseBtn">Pause</button>
+            <a href="start.html" class="menu-button">Main Menu</a>
+        </div>
+        <canvas id="gameCanvas" width="972" height="324"></canvas>
+    </div>
+    <script src="impossible-blocks.js"></script>
+</body>
+</html> 
